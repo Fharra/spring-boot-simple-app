@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: simple.app
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: admin
+Implementation-Vendor-Id: com.spring.boot.simple.app
+Build-Jdk: 1.8.0_161
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-bo
+ ot-starter-parent/simple.app
+Created-By: Maven Integration for Eclipse
+
