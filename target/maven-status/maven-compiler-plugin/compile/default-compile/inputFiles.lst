@@ -1,2 +1,9 @@
 C:\workspace\simpleApp\src\main\java\simpleApp\SimpleController.java
+C:\workspace\simpleApp\src\main\java\web\exception\BookIdMismatchException.java
+C:\workspace\simpleApp\src\main\java\web\RestExceptionHandler.java
 C:\workspace\simpleApp\src\main\java\simpleApp\Application.java
+C:\workspace\simpleApp\src\main\java\web\BookController.java
+C:\workspace\simpleApp\src\main\java\config\SecurityConfig.java
+C:\workspace\simpleApp\src\main\java\persistence\repository\BookRepository.java
+C:\workspace\simpleApp\src\main\java\web\exception\BookNotFoundException.java
+C:\workspace\simpleApp\src\main\java\persistence\model\Book.java

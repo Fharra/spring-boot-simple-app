@@ -1,2 +1,8 @@
+web\exception\BookIdMismatchException.class
 simpleApp\SimpleController.class
 simpleApp\Application.class
+web\exception\BookNotFoundException.class
+persistence\repository\BookRepository.class
+config\SecurityConfig.class
+web\BookController.class
+persistence\model\Book.class
