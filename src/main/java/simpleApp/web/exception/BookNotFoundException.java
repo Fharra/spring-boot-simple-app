@@ -1,4 +1,4 @@
-package web.exception;
+package simpleApp.web.exception;
 
 public class BookNotFoundException extends RuntimeException {
 	public BookNotFoundException() {

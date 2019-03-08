@@ -1,4 +1,4 @@
-package web;
+package simpleApp.web;
 
 import java.util.List;
 
@@ -14,10 +14,10 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.bind.annotation.RestController;
 
-import persistence.model.Book;
-import persistence.repository.BookRepository;
-import web.exception.BookIdMismatchException;
-import web.exception.BookNotFoundException;
+import simpleApp.persistence.model.Book;
+import simpleApp.persistence.repository.BookRepository;
+import simpleApp.web.exception.BookIdMismatchException;
+import simpleApp.web.exception.BookNotFoundException;
 
 @RestController
 @RequestMapping("/api/books")

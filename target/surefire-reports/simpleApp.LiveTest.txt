@@ -1,0 +1,28 @@
+-------------------------------------------------------------------------------
+Test set: simpleApp.LiveTest
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 0, Errors: 6, Skipped: 0, Time elapsed: 46.408 s <<< FAILURE! - in simpleApp.LiveTest
+whenGetNotExistBookById_thenNotFound(simpleApp.LiveTest)  Time elapsed: 0.008 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.boot.web.embedded.tomcat.ConnectorStartFailedException: Connector configured to listen on port 8081 failed to start
+
+whenInvalidBook_thenError(simpleApp.LiveTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.boot.web.embedded.tomcat.ConnectorStartFailedException: Connector configured to listen on port 8081 failed to start
+
+whenGetCreatedBookById_thenOK(simpleApp.LiveTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.boot.web.embedded.tomcat.ConnectorStartFailedException: Connector configured to listen on port 8081 failed to start
+
+whenGetBooksByTitle_thenOK(simpleApp.LiveTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.boot.web.embedded.tomcat.ConnectorStartFailedException: Connector configured to listen on port 8081 failed to start
+
+whenGetAllBooks_thenOK(simpleApp.LiveTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.boot.web.embedded.tomcat.ConnectorStartFailedException: Connector configured to listen on port 8081 failed to start
+
+whenCreateNewBook_thenCreated(simpleApp.LiveTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.boot.web.embedded.tomcat.ConnectorStartFailedException: Connector configured to listen on port 8081 failed to start
+

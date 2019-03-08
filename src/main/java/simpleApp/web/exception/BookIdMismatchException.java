@@ -1,4 +1,4 @@
-package web.exception;
+package simpleApp.web.exception;
 
 public class BookIdMismatchException extends RuntimeException {
 	public BookIdMismatchException() {

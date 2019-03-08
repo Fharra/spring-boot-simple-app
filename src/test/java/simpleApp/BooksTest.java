@@ -8,17 +8,20 @@ import static org.junit.Assert.assertTrue;
 import java.util.List;
 
 import org.junit.Test;
+import org.junit.runner.RunWith;
+import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.boot.test.context.SpringBootTest.WebEnvironment;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
+import org.springframework.test.context.junit4.SpringRunner;
 
 import io.restassured.RestAssured;
 import io.restassured.response.Response;
-import persistence.model.Book;
+import simpleApp.persistence.model.Book;
 
-/*@RunWith(SpringRunner.class)
-@SpringBootTest(classes = {
-		Application.class }, webEnvironment = WebEnvironment.DEFINED_PORT)*/
-public class LiveTest {
+@RunWith(SpringRunner.class)
+@SpringBootTest(classes = Application.class, webEnvironment = WebEnvironment.DEFINED_PORT)
+public class BooksTest {
 
 	private static final String API_ROOT = "http://localhost:8081/api/books";
 

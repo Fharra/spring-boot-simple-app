@@ -1,4 +1,4 @@
-package web;
+package simpleApp.web;
 
 import org.hibernate.exception.ConstraintViolationException;
 import org.springframework.dao.DataIntegrityViolationException;
@@ -10,8 +10,8 @@ import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.context.request.WebRequest;
 import org.springframework.web.servlet.mvc.method.annotation.ResponseEntityExceptionHandler;
 
-import web.exception.BookIdMismatchException;
-import web.exception.BookNotFoundException;
+import simpleApp.web.exception.BookIdMismatchException;
+import simpleApp.web.exception.BookNotFoundException;
 
 @ControllerAdvice // to be shared across multiple @Controller classes
 public class RestExceptionHandler extends ResponseEntityExceptionHandler {
